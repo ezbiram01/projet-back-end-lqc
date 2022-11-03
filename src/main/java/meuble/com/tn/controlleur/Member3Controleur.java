@@ -21,7 +21,7 @@ import meuble.com.tn.services.IMember3Service;
 
 @RestController
 @RequestMapping("/Member3")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://lylyqcontinental.com"})
 
 
 public class Member3Controleur {

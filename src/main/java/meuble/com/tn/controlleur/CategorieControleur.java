@@ -20,7 +20,7 @@ import meuble.com.tn.services.ICategorieService;
 
 @RestController
 @RequestMapping("/Categorie")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://lylyqcontinental.com"})
 public class CategorieControleur {
 	@Autowired
 	ICategorieService categService;

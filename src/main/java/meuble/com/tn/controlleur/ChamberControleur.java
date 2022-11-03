@@ -20,7 +20,7 @@ import meuble.com.tn.services.IChamberService;
 
 @RestController
 @RequestMapping("/Chamber")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://lylyqcontinental.com"})
 public class ChamberControleur {
 	@Autowired
 	IChamberService chamberService;

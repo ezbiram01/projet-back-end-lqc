@@ -18,7 +18,7 @@ import meuble.com.tn.services.IUserService;
 
 @RestController 
 @RequestMapping("/User")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://lylyqcontinental.com"})
 
 public class UserControleur {
 	

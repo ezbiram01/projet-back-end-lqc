@@ -20,7 +20,7 @@ import meuble.com.tn.services.IProduitService;
 
 @RestController
 @RequestMapping("/Produit")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://lylyqcontinental.com"})
 public class ProduitControleur {
 	@Autowired
 	IProduitService produitervice;
