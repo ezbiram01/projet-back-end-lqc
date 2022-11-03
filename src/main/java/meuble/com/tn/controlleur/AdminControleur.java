@@ -22,7 +22,7 @@ import meuble.com.tn.services.IAdminService;
 
 @RestController
 @RequestMapping("/Admin")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://lylyqcontinental.com"})
 public class AdminControleur {
 	
 	@Autowired
